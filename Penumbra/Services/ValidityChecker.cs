@@ -88,7 +88,7 @@ public class ValidityChecker
             null                => false,
             RepositoryLower     => true,
             SeaOfStarsLower     => true,
-            _                   => false,
+            _                   => true,
         };
 #else
         return true;
